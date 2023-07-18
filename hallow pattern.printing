@@ -1,0 +1,9 @@
+R=int(input())
+C=int(input())
+for i in range(1,R+1):
+    for j in range(1,C+1):
+        if (i==1 or i==R or j==1 or j==C):
+            print("*",end=" ")
+        else:
+            print(" ",end=" ")
+    print()
